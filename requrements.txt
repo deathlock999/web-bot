@@ -1,5 +1,3 @@
-# -*- python_version: 3.9 -*-
-# Your project dependencies here
 requests
 openpyxl
 deep_translator
