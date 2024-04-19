@@ -5,7 +5,7 @@ from deep_translator import GoogleTranslator
 
 
 
-api_token = "rDfh1kJ7U6WBbx5qQA3mdvEAhUoRz3Hr"
+api_token = "fGQJvjbzsCUPB7QtImHL8okh7QEPnpzm"
 
 url = "https://gate.whapi.cloud/messages/poll"
 
