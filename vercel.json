@@ -1,9 +1,19 @@
 {
-    "version": 2,
-    "builds": [
-        {"src": "web.py", "use": "@vercel/python"}
-    ],
-    "routes": [
-        {"src": "/(.*)", "dest": "web.py"}
-    ]
+  "version": 2,
+  // This specifies the Vercel configuration file format version
+
+  "builds": [
+    {
+      "src": "web.py", // This points to the main Python script for your web app
+      "use": "@vercel/python" // This specifies the Vercel builder for Python
+    }
+  ],
+
+  // This section is optional if your Flask app defines its own routes
+  "routes": [
+    {
+      "src": "/(.*)", // This is a wildcard pattern to catch all incoming URLs
+      "dest": "web.py" // This directs all requests to your web.py script
+    }
+  ]
 }
