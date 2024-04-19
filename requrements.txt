@@ -1,0 +1,4 @@
+requests
+openpyxl
+deep_translator
+flask
